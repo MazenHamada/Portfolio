@@ -7,6 +7,7 @@ const projects = [
     description:
       "Analyzed telecom customer data to identify churn patterns and key drivers. Cleaned and merged multiple datasets, then built and compared ML models — Gradient Boosting achieved top performance.",
     tags: ["Python", "Pandas", "Power BI", "ML"],
+    href: "https://github.com/MazenHamada/Telco-Customer-Churn-Analysis",
   },
    {
     title: "Customer Behavior Analysis",

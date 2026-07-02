@@ -7,9 +7,8 @@ const projects = [
     description:
       "Analyzed telecom customer data to identify churn patterns and key drivers. Cleaned and merged multiple datasets, then built and compared ML models — Gradient Boosting achieved top performance.",
     tags: ["Python", "Pandas", "Power BI", "ML"],
-    href: "https://github.com/MazenHamada/Telco-Customer-Churn-Analysis",
   },
-   {
+  {
     title: "Customer Behavior Analysis",
     description: "Explored 3,900 customer transactions to identify spending trends, product preferences, subscription patterns, and key revenue drivers, providing actionable insights for data-driven decision-making.",
     tags: ["Python", "SQL", "Power BI"],
@@ -37,11 +36,11 @@ const projects = [
   },
   {
     title: "SpaceX Falcon 9 Landing Prediction",
-description:
+    description:
       "Developed classification models to predict Falcon 9 landing success using data from the SpaceX API and web scraping. Conducted EDA with SQL and deployed an interactive Plotly Dash dashboard.",
     tags: ["Python", "SQL", "Web Scraping", "Plotly Dash"],
   },
-    
+
 ]
 
 export function Projects() {

@@ -16,7 +16,7 @@ const projects = [
     tags: ["Python", "SQL", "Power BI"],
     href: "https://github.com/MazenHamada/Customer-Behavior-Analysis",
   },
-  { 
+  {
     title: "COVID-19 Data Exploration in SQL",
     description:
       "Analyzed global COVID-19 data using SQL — joins, CTEs, and window functions — to evaluate infection rates, mortality, and vaccination trends across countries.",

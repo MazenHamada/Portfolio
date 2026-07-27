@@ -15,22 +15,22 @@ const samples = [
   {
     title: "COVID-19 Global Trends",
     tool: "Tableau",
-    image: "/work/Covid-19 Dashboard.png",
+    image: "/work/covid-dashboard.png",
     alt: "Tableau dashboard with world map, KPIs, and time-series of global COVID-19 cases",
     demoUrl: "https://public.tableau.com/app/profile/mazen.hamada1636/viz/CovidDashboard_17645050732070/Dashboard1",
   },
   {
     title: "Bike Sales Excel Dashboard",
     tool: "Excel",
-    image: "/work/Bike Sales Dashboard.png",
+    image: "/work/aid-dashboard.png",
     alt: "Excel report visualizing bike sales",
   },
   {
     title: "Customer Behavior Dashboard",
     tool: "Power BI",
-    image: "/work/Customer Behavior Dashboard.png",
+    image: "/work/sql-cleaning.png",
     alt: "Power BI dashboard showing customer behavior analysis and spending trends",
-    demoUrl: "https://app.powerbi.com/view?r=********",
+    demoUrl: "https://app.powerbi.com/view?r=eyJrIjoiNWNhNGRjMDktNjg3MC00NTNjLWE4OWItMmU2YTQwNWU1OTNkIiwidCI6IjAyNjU5ODhhLWU0MDQtNGRkYy1hMmEwLTY2MjUwNWMzYjc4ZiIsImMiOjh9",
   },
 ]
 

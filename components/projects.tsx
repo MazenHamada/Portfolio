@@ -51,6 +51,13 @@ const projects = [
     tags: ["Python", "SQL", "Web Scraping", "Plotly Dash"],
     href: "https://github.com/MazenHamada/SpaceX-Falcon-9-Landing-Prediction",
   },
+    {
+    title: "Power BI Data Modeling Project",
+    description:
+      "Power BI data modeling project focused on building a star schema, fact tables, dimensions, and Row-Level Security (RLS).",
+    tags: ["Power BI", "Power Query", "DAX","Data Modeling", "Row Level Security"],
+    href: "https://github.com/MazenHamada/Power-BI-Data-Modeling",
+  },
 ]
 
 export function Projects() {

@@ -17,6 +17,13 @@ const projects = [
     href: "https://github.com/MazenHamada/Customer-Behavior-Analysis",
   },
   {
+    title: "Power BI Data Modeling Project",
+    description:
+      "Power BI data modeling project focused on building a star schema, fact tables, dimensions, and Row-Level Security (RLS).",
+    tags: ["Power BI", "Power Query", "DAX","Data Modeling", "Row Level Security"],
+    href: "https://github.com/MazenHamada/Power-BI-Data-Modeling",
+  },
+  {
     title: "COVID-19 Data Exploration in SQL",
     description:
       "Analyzed global COVID-19 data using SQL — joins, CTEs, and window functions — to evaluate infection rates, mortality, and vaccination trends across countries.",

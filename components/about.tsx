@@ -2,16 +2,6 @@ import { SectionHeading } from "@/components/section-heading"
 
 const experience = [
   {
-    period: "Jul 2025 – Aug 2025",
-    role: "Data Analyst — Internship",
-    org: "Corelia.ai",
-    points: [
-      "Analyzed real-world datasets using Python, cleaning and preparing data for analysis.",
-      "Conducted exploratory data analysis (EDA) to uncover trends and anomalies.",
-      "Built Power BI and Streamlit dashboards to visualize findings and present insights.",
-    ],
-  },
-  {
     period: "Jul 2024 – Present",
     role: "Data & Reporting Specialist",
     org: "Egyptian Red Crescent",
@@ -21,6 +11,17 @@ const experience = [
       "Developed a medical convoys dashboard tracking 64 convoys and 140K beneficiaries, with aid distribution by governorate and period.",
       "Delivered a national Measles & Rubella campaign dashboard covering 62K vaccinations, 500+ volunteers, and 22K awareness beneficiaries over 14 days (~4.5K/day), analyzed by governorate, nationality, age group, and daily trend.",
       "Built a Power BI dashboard tracking beneficiaries and aid distribution for Palestinian aid supply programs at hospitalization centers.",
+    ],
+  },
+  
+  {
+    period: "Jul 2025 – Aug 2025",
+    role: "Data Analyst — Internship",
+    org: "Corelia.ai",
+    points: [
+      "Analyzed real-world datasets using Python, cleaning and preparing data for analysis.",
+      "Conducted exploratory data analysis (EDA) to uncover trends and anomalies.",
+      "Built Power BI and Streamlit dashboards to visualize findings and present insights.",
     ],
   },
 ]

@@ -17,9 +17,7 @@ export function Hero() {
       </h1>
 
       <p className="mt-6 max-w-2xl text-pretty text-lg leading-relaxed text-muted-foreground">
-        I build automated reporting pipelines and live dashboards from humanitarian data.
-        Experienced in collecting, validating, cleaning, and visualizing data at the Egyptian Red Crescent
-        using Power BI, Power Query, and Excel, with hands-on skills in SQL, Python, and machine learning.
+        I build automated reporting pipelines and live dashboards from humanitarian data. At the Egyptian Red Crescent, I collect, validate, and clean data and turn it into dashboards with Power BI, Power Query, and Excel. I also work with SQL, Python, and machine learning.
       </p>
 
       <div className="mt-8 flex flex-wrap items-center gap-4">

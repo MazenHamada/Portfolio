@@ -2,23 +2,25 @@ import { SectionHeading } from "@/components/section-heading"
 
 const experience = [
   {
-    period: "Jun 2025 – Aug 2025",
+    period: "Jul 2025 – Aug 2025",
     role: "Data Analyst — Internship",
     org: "Corelia.ai",
     points: [
-      "Analyzed structured datasets using Python (Pandas, NumPy) to support business decision-making.",
-      "Conducted EDA to uncover trends and anomalies, contributing to KPI tracking.",
-      "Built Power BI and Streamlit dashboards for metric monitoring and reporting.",
+      "Analyzed real-world datasets using Python, cleaning and preparing data for analysis.",
+      "Conducted exploratory data analysis (EDA) to uncover trends and anomalies.",
+      "Built Power BI and Streamlit dashboards to visualize findings and present insights.",
     ],
   },
   {
-    period: "Jul 2022 – Present",
+    period: "Jul 2024 – Present",
     role: "Data & Reporting Specialist",
     org: "Egyptian Red Crescent",
     points: [
-      "Collected and validated beneficiary and aid distribution data to ensure high accuracy.",
-      "Performed data cleaning to prepare reliable datasets for analysis and reporting.",
-      "Built interactive Power BI dashboards and reports to provide actionable insights.",
+      "Designed an automated end-to-end reporting pipeline: validated data collection forms (KoboToolbox, Microsoft Forms) export automatically to Excel workbooks on OneDrive, linked to Power BI, where Power Query cleans the data on every scheduled refresh, keeping dashboards always up to date.",
+      "Built a Power BI clinics dashboard tracking specializations, beneficiaries, and revenue across 4 fixed branches (159K beneficiaries, EGP 11M revenue), with quarterly and branch-level comparisons.",
+      "Developed a medical convoys dashboard tracking 64 convoys and 140K beneficiaries, with aid distribution by governorate and period.",
+      "Delivered a national Measles & Rubella campaign dashboard covering 62K vaccinations, 500+ volunteers, and 22K awareness beneficiaries over 14 days (~4.5K/day), analyzed by governorate, nationality, age group, and daily trend.",
+      "Built a Power BI dashboard tracking beneficiaries and aid distribution for Palestinian aid supply programs at hospitalization centers.",
     ],
   },
 ]

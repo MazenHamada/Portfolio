@@ -1,33 +1,81 @@
 import { SectionHeading } from "@/components/section-heading"
-import { BarChart3, Brain, Database, Wrench } from "lucide-react"
+import {
+  BarChart3,
+  Brain,
+  ClipboardList,
+  Database,
+  Users,
+  Workflow,
+} from "lucide-react"
 
 const groups = [
   {
     icon: Database,
     title: "Data Analysis",
-    items: ["SQL", "Excel", "Python", "Pandas", "NumPy"],
+    items: [
+      "SQL (SQL Server)",
+      "Excel",
+      "Python",
+      "Pandas",
+      "NumPy",
+      "EDA",
+      "KPI Reporting",
+    ],
   },
   {
     icon: BarChart3,
-    title: "Data Visualization",
-    items: ["Power BI", "Tableau", "Looker Studio"],
+    title: "Data Visualization & BI",
+    items: [
+      "Power BI",
+      "DAX",
+      "Power Query",
+      "Row-Level Security",
+      "Scheduled Refresh",
+      "Tableau",
+      "Looker Studio",
+    ],
   },
   {
-    icon: Wrench,
-    title: "Data Techniques",
+    icon: Workflow,
+    title: "Data Engineering & Automation",
     items: [
-      "Data Modeling",
-      "Data Cleaning",
-      "EDA",
-      "Data Transformation",
-      "Web Scraping",
+      "ETL / Data Pipelines",
+      "Data Modeling (Star Schema)",
+      "Data Cleaning & Transformation",
+      "Data Validation",
+      "Reporting Automation",
+    ],
+  },
+  {
+    icon: ClipboardList,
+    title: "Data Collection",
+    items: [
+      "KoboToolbox",
+      "Microsoft Forms",
+      "Web Scraping (BeautifulSoup)",
       "API Data Collection",
     ],
   },
   {
     icon: Brain,
     title: "ML / DL",
-    items: ["Regression", "Classification", "Deep Learning (CNN, RNN)", "Model Evaluation"],
+    items: [
+      "Regression",
+      "Classification",
+      "Deep Learning (CNNs, RNNs)",
+      "Model Evaluation",
+    ],
+  },
+  {
+    icon: Users,
+    title: "Soft Skills & Languages",
+    items: [
+      "Communication",
+      "Presentation Skills",
+      "Analytical Thinking",
+      "English — Proficient",
+      "Arabic — Native",
+    ],
   },
 ]
 
@@ -60,22 +108,6 @@ export function Skills() {
             </ul>
           </div>
         ))}
-      </div>
-
-      <div className="mt-4 rounded-2xl border border-border bg-card p-6">
-        <h3 className="mb-3 font-medium text-foreground">Soft Skills &amp; Languages</h3>
-        <div className="flex flex-wrap gap-2">
-          {["Communication", "Presentation", "Analytical Thinking", "English — Proficient", "Arabic — Native"].map(
-            (item) => (
-              <span
-                key={item}
-                className="rounded-full bg-secondary px-3 py-1 text-sm text-secondary-foreground"
-              >
-                {item}
-              </span>
-            ),
-          )}
-        </div>
       </div>
     </section>
   )
